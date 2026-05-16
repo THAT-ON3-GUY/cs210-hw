@@ -50,6 +50,7 @@ public class Journal
             _entries.Clear();
             _entries.AddRange(loadedEntries);  
         }
+        //Covered Edge Case of Incorrect input
         else
         {
             Console.WriteLine("File not found!");

@@ -33,6 +33,7 @@ class Program
             {
                 journal.SaveEntries();
             }
+            //Covered Edge Case of Incorrect input
             else if(choice != "5")
             {
                 Console.WriteLine("Operation not recognized, please input a number from 1-5!");
