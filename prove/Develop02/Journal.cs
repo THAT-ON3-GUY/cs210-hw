@@ -1,4 +1,7 @@
 public class Journal
 {
-    public List<Entry> _entries = new List<Entry>();
+    public List<string> _entries = new List<string>();
+
+    
+    public string _entryDate;
 }
