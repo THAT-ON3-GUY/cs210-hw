@@ -3,7 +3,6 @@ using System.Runtime.CompilerServices;
 
 class Program
 {
-    private bool _continue = true;
     static void Main(string[] args)
     {
         string choice;
