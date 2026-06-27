@@ -1,5 +1,9 @@
 using System.IO;
-
+//For my extra feature I've added a shop system. This system saves shop items in reference to the user.
+//The system is built this way so a user can create unique rewards to work towards based on their needs the same way,
+//that goals can be customized to meet their needs. This shop system allows items to be set with both point and level costs.
+//These cost also work with a minimum level system that make it so you can't get bigger rewards until higher levels.
+//But at the same time those bigger rewards might set you back a few levels.
 class Program
 {
     private static List<Goal> _goals = new List<Goal>();
