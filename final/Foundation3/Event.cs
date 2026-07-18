@@ -1,12 +1,12 @@
 public class Event
 {
-    public string _name { get; set; }
-    public string _description { get; set; }
-    public DateTime _date { get; set; }
-    public DateTime _time { get; set; }
-    public Address _location { get; set; }
+    private string _name { get; set; }
+    private string _description { get; set; }
+    private DateTime _date { get; set; }
+    private DateTime _time { get; set; }
+    private Address _location { get; set; }
 
-    public string _eventType { get; set; } = "General Event";
+    private string _eventType { get; set; } = "General Event";
 
     public Event(string name, string description, DateTime date, DateTime time, Address location)
     {

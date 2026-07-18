@@ -37,4 +37,8 @@ public class Video
     {
         _comments.Add(comment);
     }
+    public void NumberOfComments()
+    {
+        Console.WriteLine($"Number of comments: {_comments.Count}");
+    }
 }

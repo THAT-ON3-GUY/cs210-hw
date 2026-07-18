@@ -33,8 +33,16 @@ public class Product
         get { return _quantity; }
     }
 
-    public double GetTotalPrice()
+    public double GetTotalPrice(Address address)
     {
-        return _price * _quantity;
+        double totalPrice = _price * _quantity;
+        if (address.InUnitedStates() == true)
+        {
+            totalPrice += 5; // Add $5 shipping fee for US
+        } else
+        {
+            totalPrice += 35; // Add $35 shipping fee for international
+        }
+        return totalPrice;
     }
 }
